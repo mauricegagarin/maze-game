@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #222;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.main-menu {
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+  color: #61dafb;
+}
+
+.menu-options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  margin: 10px;
+  padding: 15px 30px;
+  font-size: 1.2em;
+  background-color: #61dafb;
+  color: #222;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #3f8cb5;
+}
+
+
+.about-us-container {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.about-us-header h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #61dafb;
+}
+
+.about-us-content p {
+  font-size: 1.2em;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.about-us-content a {
+  color: #61dafb;
+  text-decoration: none;
+}
+
+.about-us-content a:hover {
+  text-decoration: underline;
+}
+
+/* MazeGame.css */
+.maze-game-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.maze-game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.maze {
+  display: grid;
+  grid-template-columns: repeat(5, 40px);
+  grid-gap: 4px;
+}
+
+.maze-row {
+  display: flex;
+}
+
+.maze-cell {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #000;
+  position: relative;
+}
+
+.wall {
+  background-color: #333;
+}
+
+.path {
+  background-color: #eee;
+}
+
+.player {
+  width: 30px;
+  height: 30px;
+  background-color: #00f;
+  border-radius: 50%;
+  margin: 5px;
+  position: absolute;
+}
+
+.finish-line {
+  width: 30px;
+  height: 30px;
+  background-color: #0f0;
+  border-radius: 50%;
+  margin: 5px;
+  position: absolute;
+}
+
+
+
